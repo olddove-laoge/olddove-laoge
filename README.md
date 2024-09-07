@@ -14,3 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: 私宅二刺螈
 -->
+![Visitor Count](https://profile-counter.glitch.me/olddove-laoge/count.svg)
