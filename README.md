@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 ## - ⚡ Fun fact: 私宅二刺螈
 -->
 ![Visitor Count](https://profile-counter.glitch.me/olddove-laoge/count.svg)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olddove-laoge)](https://github.com/olddove-laoge/github-readme-stats)
