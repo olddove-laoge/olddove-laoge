@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text={Hi!I'm olddove}&fontSize=90&fontAlign=50&fontAlignY=30&desc={a lazy NCU freshman}&descAlign=50&descSize=30&descAlignY=60&animation=twinkling" />
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&color=2EF797&center=%E5%81%87&vCenter=%E5%81%87&multiline=true&repeat=%E7%9C%9F&random=%E7%9C%9F&width=565&height=100&lines=Hi!Here+is+olddove%2Ca+student+of+NCU;And+I'm+exploring+my+own+way+to+study.)](https://git.io/typing-svg)
 
 ## Fly broken wings,I know you were still with me.All I need is a nudge to get started ⭐⭐⭐
   -🔭 I’m currently working on python
@@ -72,9 +70,9 @@ If things goes well, this section should automatically be replaced by a list of 
 <br/>  
 
 
-  
-![Visitor Count](https://profile-counter.glitch.me/olddove-laoge/count.svg)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olddove-laoge)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=olddove-laoge)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olddove-laoge)
+![Visitor Count](https://profile-counter.glitch.me/olddove-laoge/count.svg)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=olddove-laoge)
+
