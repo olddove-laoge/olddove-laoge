@@ -1,14 +1,16 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&color=2EF797&center=%E5%81%87&vCenter=%E5%81%87&multiline=true&repeat=%E7%9C%9F&random=%E7%9C%9F&width=565&height=100&lines=Hi!Here+is+olddove%2Ca+student+of+NCU;And+I'm+exploring+my+own+way+to+study.)](https://git.io/typing-svg)
 
 ## Fly broken wings,I know you were still with me.All I need is a nudge to get started ⭐⭐⭐
-  -🔭 I’m currently working on python
-  - 🌱 I’m currently learning python
+  -🔭 I’m currently working on python,agent,rag
+  - 🌱 I’m currently learning agent
   - 👯 I’m looking to collaborate on ...
-  - 🤔 I’m looking for help with nobody，I'm the one who needs help exactly.
-  - 💬 Ask me about ...
+  - 💬 Ask me about anything about agent,such as funtion calling,mcp,rag,memory and so on
   - 📫 How to reach me: lyh233666@163.com
   - 😄 Pronouns: ...
   - ⚡ Fun fact: 私宅二刺螈
+## Welcome to MY blog website!
+here is my own blog website, which records my thoughts and process of learning agents!
+https://fluttering-olddove.vercel.app/
 
 
 <!--
