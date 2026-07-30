@@ -85,7 +85,23 @@ If things goes well, this section should automatically be replaced by a list of 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/github-contribution-grid-snake.svg">
 </picture>
+
 😋😋😋
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/contribution-garden-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/contribution-garden.svg"
+  />
+  <img
+    alt="olddove-laoge's GitHub contribution garden"
+    src="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/contribution-garden.svg"
+  />
+</picture>
 
 **Let's Danceeeee!**
 
