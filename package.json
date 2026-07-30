@@ -1,0 +1,12 @@
+{
+  "name": "github-contribution-garden",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.mjs",
+    "demo": "node generate.mjs --demo"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
