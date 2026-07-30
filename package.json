@@ -1,10 +1,12 @@
 {
-  "name": "github-contribution-garden",
+  "name": "olddove-laoge-profile",
   "private": true,
   "type": "module",
   "scripts": {
     "generate": "node generate.mjs",
-    "demo": "node generate.mjs --demo"
+    "generate:solar": "node generate-solar.mjs",
+    "demo:garden": "node generate.mjs --demo",
+    "demo:solar": "node generate-solar.mjs --demo"
   },
   "engines": {
     "node": ">=20"
