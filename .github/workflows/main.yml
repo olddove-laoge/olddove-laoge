@@ -1,14 +1,14 @@
 name: Generate profile animations
 
 on:
-  # 每两小时自动更新一次
+  # 每两小时自动生成
   schedule:
     - cron: "0 */2 * * *"
 
-  # 支持在 Actions 页面手动运行
+  # 支持手动运行
   workflow_dispatch:
 
-  # 推送到 master 时运行
+  # 推送到 master 分支时生成
   push:
     branches:
       - master
@@ -26,23 +26,21 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # 花园生成器在仓库中，因此必须先检出仓库
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # generate.mjs 需要 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 防止仓库中已有的旧 dist 文件混入本次结果
+      # 每次从空目录开始，避免残留旧文件
       - name: Prepare output directory
         run: |
           rm -rf dist
           mkdir -p dist
 
-      # 先生成亮色和暗色贪吃蛇
+      # 生成贪吃蛇
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -51,14 +49,22 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 再把亮色和暗色花园放入同一个 dist 目录
+      # 生成代码花园
       - name: Generate contribution garden
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: npm run generate
 
-      # 此时 dist 中同时存在贪吃蛇和花园，一次性发布
+      # 生成代码星系
+      - name: Generate code solar system
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: npm run generate:solar
+
+      # 一次性发布所有组件
       - name: Publish profile animations
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
