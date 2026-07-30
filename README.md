@@ -72,12 +72,20 @@ If things goes well, this section should automatically be replaced by a list of 
 <br/>  
 
 
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=olddove-laoge)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olddove-laoge)
-![Visitor Count](https://profile-counter.glitch.me/olddove-laoge/count.svg)
-
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=olddove-laoge)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/code-solar-system-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/code-solar-system.svg"
+  />
+  <img
+    alt="olddove-laoge's code solar system"
+    src="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/code-solar-system.svg"
+  />
+</picture>
 
 
 <picture>
@@ -86,7 +94,7 @@ If things goes well, this section should automatically be replaced by a list of 
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/olddove-laoge/olddove-laoge/output/github-contribution-grid-snake.svg">
 </picture>
 
-😋😋😋
+
 
 <picture>
   <source
