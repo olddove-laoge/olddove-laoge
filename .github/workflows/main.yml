@@ -1,41 +1,65 @@
-name: generate animation
+name: Generate profile animations
 
 on:
-  # run automatically every 2 hours
+  # 每两小时自动更新一次
   schedule:
-    - cron: "0 */2 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "0 */2 * * *"
+
+  # 支持在 Actions 页面手动运行
   workflow_dispatch:
-  
-  # run on every push on the master branch
+
+  # 推送到 master 时运行
   push:
     branches:
-    - master
-  
-  
+      - master
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-animations
+  cancel-in-progress: true
 
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-  
+    timeout-minutes: 10
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      # 花园生成器在仓库中，因此必须先检出仓库
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # generate.mjs 需要 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 防止仓库中已有的旧 dist 文件混入本次结果
+      - name: Prepare output directory
+        run: |
+          rm -rf dist
+          mkdir -p dist
+
+      # 先生成亮色和暗色贪吃蛇
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-  
-  
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      # 再把亮色和暗色花园放入同一个 dist 目录
+      - name: Generate contribution garden
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: npm run generate
+
+      # 此时 dist 中同时存在贪吃蛇和花园，一次性发布
+      - name: Publish profile animations
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
