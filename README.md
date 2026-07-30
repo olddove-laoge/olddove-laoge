@@ -115,5 +115,10 @@ If things goes well, this section should automatically be replaced by a list of 
 
 
 https://github.com/user-attachments/assets/0747363a-4aa6-4316-a69a-95a8179b948e
-
+<img
+  src="https://olddove-profile-counter.olddove-profile-counter.workers.dev/view/olddove-laoge.svg"
+  width="1"
+  height="1"
+  alt=""
+/>
 
