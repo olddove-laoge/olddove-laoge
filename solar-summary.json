@@ -1,0 +1,40 @@
+{
+  "username": "olddove-laoge",
+  "profileViews": 48,
+  "demo": false,
+  "projects": [
+    {
+      "name": "Crawling-Taobao-product-reviews",
+      "url": "https://github.com/olddove-laoge/Crawling-Taobao-product-reviews",
+      "description": "基于selenium实现的淘宝评论爬取，输入商品链接即可爬取设定的评论数（初始默认1000条）",
+      "stars": 22,
+      "forks": 2,
+      "language": "Python",
+      "updatedAt": "2026-06-30T07:52:16Z",
+      "views": 15,
+      "visitors": 4
+    },
+    {
+      "name": "CrawlMind",
+      "url": "https://github.com/olddove-laoge/CrawlMind",
+      "description": "AI智能网页数据提取工具 - 基于 LLM，自动分析页面层级结构，智能爬取各类你想要的数据。 AI-Powered Web Scraper - Uses LLM to intelligently analyze page structure and crawls various types of data you want.",
+      "stars": 7,
+      "forks": 1,
+      "language": "JavaScript",
+      "updatedAt": "2026-06-04T13:29:55Z",
+      "views": 4,
+      "visitors": 1
+    },
+    {
+      "name": "SpotTruth",
+      "url": "https://github.com/olddove-laoge/SpotTruth",
+      "description": "避雷真平台是一个多源商品分析工具，整合淘宝商品评价、小红书社区笔记和黑猫投诉平台数据，通过AI技术提供全面的商品质量评估和购买决策支持。",
+      "stars": 5,
+      "forks": 1,
+      "language": "Python",
+      "updatedAt": "2026-04-15T14:02:04Z",
+      "views": 3,
+      "visitors": 3
+    }
+  ]
+}
