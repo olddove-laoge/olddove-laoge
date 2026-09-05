@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="title desc">
+  <title id="title">olddove-laoge's code solar system</title>
+  <desc id="desc">The central star represents profile views and the three planets represent popular repositories. Rank 1: Crawling-Taobao-product-reviews, 23 stars, 2 forks, 8 views. Rank 2: SpotTruth, 5 stars, 1 forks, 8 views. Rank 3: Zheng-Da-cup, 5 stars, 0 forks, 6 views.</desc>
+  <defs>
+    <filter id="sun-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .heading { fill: #E7E0D5; font-size: 18px; font-weight: 700; letter-spacing: .4px; }
+    .subheading { fill: #AAA299; font-size: 11px; letter-spacing: .7px; }
+    .project-name { fill: #E7E0D5; font-size: 13px; font-weight: 700; }
+    .metric { fill: #E7E0D5; font-size: 12px; font-weight: 650; }
+    .traffic { fill: #AAA299; font-size: 10.5px; }
+    .rank { fill: #AAA299; font-size: 10px; font-weight: 700; }
+    .divider { fill: #AAA299; }
+    .sun-number { fill: #3B2A00; font-size: 19px; font-weight: 800; letter-spacing: 0; }
+    .sun-label { fill: #DDD5C9; font-size: 8px; font-weight: 700; letter-spacing: .8px; paint-order: stroke; stroke: #B96A64; stroke-width: 1.5px; stroke-linejoin: round; }
+    .planet-float { transform-box: fill-box; transform-origin: center; }
+    .planet-1 { animation: drift1 6s ease-in-out infinite alternate; }
+    .planet-2 { animation: drift2 7.5s ease-in-out infinite alternate; }
+    .planet-3 { animation: drift3 8.5s ease-in-out infinite alternate; }
+    .sun-core { animation: breathe 4.5s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    @keyframes drift1 { to { transform: translate(3px, -4px); } }
+    @keyframes drift2 { to { transform: translate(-4px, 3px); } }
+    @keyframes drift3 { to { transform: translate(3px, 4px); } }
+    @keyframes breathe { to { transform: scale(1.045); } }
+    @media (prefers-reduced-motion: reduce) {
+      .planet-float, .sun-core { animation: none; }
+      animate, animateTransform { display: none; }
+    }
+  </style>
+
+  <rect width="900" height="380" fill="#191816"/>
+  <rect x="18" y="18" width="864" height="344" fill="#242321" stroke="#E7E0D5" stroke-width="2"/>
+  <path d="M18 18H278L214 82H18ZM882 362H650L714 298H882Z" fill="#B96A64"/>
+  <path d="M318 18H368L252 134H202ZM882 86V133L752 263H705Z" fill="#5B72B8" opacity=".92"/>
+  <g opacity=".08" fill="#E7E0D5">
+    <rect x="28" y="18" width="1" height="344"/><rect x="110" y="18" width="1" height="344"/><rect x="192" y="18" width="1" height="344"/><rect x="274" y="18" width="1" height="344"/><rect x="356" y="18" width="1" height="344"/><rect x="438" y="18" width="1" height="344"/><rect x="520" y="18" width="1" height="344"/><rect x="602" y="18" width="1" height="344"/><rect x="684" y="18" width="1" height="344"/><rect x="766" y="18" width="1" height="344"/><rect x="848" y="18" width="1" height="344"/>
+  </g>
+  <circle cx="28" cy="26" r="1.3" fill="#9B948A" opacity=".55"/><circle cx="165" cy="109" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="302" cy="192" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="576" cy="36" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="713" cy="119" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="850" cy="202" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="145" cy="285" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="282" cy="46" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="556" cy="212" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="693" cy="295" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="830" cy="56" r="0.9" fill="#9B948A" opacity=".55"/><circle cx="125" cy="139" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="262" cy="222" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="399" cy="305" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="536" cy="66" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="673" cy="149" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="810" cy="232" r="1.3" fill="#9B948A" opacity=".55"/><circle cx="105" cy="315" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="242" cy="76" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="653" cy="325" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="790" cy="86" r="0.9" fill="#9B948A" opacity=".55"/><circle cx="85" cy="169" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="222" cy="252" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="359" cy="335" r="1.3" fill="#9B948A" opacity=".55"/><circle cx="496" cy="96" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="633" cy="179" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="770" cy="262" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="65" cy="345" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="202" cy="106" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="339" cy="189" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="613" cy="33" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="750" cy="116" r="1.3" fill="#9B948A" opacity=".55"/><circle cx="45" cy="199" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="182" cy="282" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="319" cy="43" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="593" cy="209" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="730" cy="292" r="0.55" fill="#9B948A" opacity=".55"/><circle cx="867" cy="53" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="162" cy="136" r="0.9" fill="#9B948A" opacity=".28"/><circle cx="299" cy="219" r="1.3" fill="#9B948A" opacity=".55"/><circle cx="436" cy="302" r="0.55" fill="#9B948A" opacity=".28"/><circle cx="573" cy="63" r="0.55" fill="#9B948A" opacity=".28"/>
+  <path d="M42 62H858" stroke="#E7E0D5" stroke-width="2"/>
+  <rect x="42" y="28" width="8" height="22" fill="#B96A64"/>
+  <text x="60" y="46" class="heading">olddove-laoge · CODE SOLAR SYSTEM</text>
+  <text x="858" y="46" text-anchor="end" class="subheading">LIVE GITHUB DATA</text>
+
+  <g fill="none" stroke="#A39B90" stroke-width="1.5" opacity=".55">
+    <ellipse cx="450" cy="202" rx="160" ry="63"/>
+    <ellipse cx="450" cy="202" rx="247" ry="105" stroke-dasharray="10 5"/>
+    <ellipse cx="450" cy="202" rx="330" ry="142" stroke-dasharray="3 7"/>
+  </g>
+  <g fill="#B27B74">
+    <circle cx="386" cy="144" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="215" r="1.8"><animate attributeName="opacity" values="1;.15;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="735" cy="235" r="1.6"><animate attributeName="opacity" values=".2;1;.2" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(450 202)">
+    <g class="sun-core">
+      <g fill="#B96A64" stroke="#E7E0D5" stroke-width="1.8">
+        <path d="M0-75L10-55H-10Z"/><path d="M0 75L-10 55H10Z"/>
+        <path d="M-75 0L-55-10V10Z"/><path d="M75 0L55 10V-10Z"/>
+        <path d="M-53-53L-32-45L-45-32Z"/><path d="M53 53L32 45L45 32Z"/>
+        <path d="M53-53L45-32L32-45Z"/><path d="M-53 53L-45 32L-32 45Z"/>
+      </g>
+      <circle r="54" fill="#B96A64" stroke="#E7E0D5" stroke-width="3"/>
+      <rect x="-54" y="-9" width="108" height="18" fill="#DDD5C9" stroke="#E7E0D5" stroke-width="2"/>
+      <circle r="36" fill="none" stroke="#E7E0D5" stroke-width="2"/>
+      <text y="-20" text-anchor="middle" class="sun-label">TRACKED VIEWS</text>
+      <text y="5" text-anchor="middle" class="sun-number">88</text>
+      <text y="27" text-anchor="middle" class="sun-label">SINCE 2026-07-30</text>
+    </g>
+  </g>
+
+  
+    <g transform="translate(603 183)">
+      <g class="planet-float planet-1">
+        <title>Crawling-Taobao-product-reviews: 23 stars, 2 forks, 8 views · 7 visitors, language Python</title>
+        <circle r="33" fill="none" stroke="#B27B74" stroke-width="2" opacity="0">
+          <animate attributeName="r" values="28;42" dur="7.0s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".55;0" dur="7.0s" repeatCount="indefinite"/>
+        </circle>
+        <rect x="-17" y="-17" width="34" height="34" fill="#5B72B8" stroke="#E7E0D5" stroke-width="2.4" transform="rotate(45)"/>
+       <circle r="12" fill="#292724" stroke="#E7E0D5" stroke-width="2"/>
+       <path d="M-10.5 0H10.5" stroke="#5B72B8" stroke-width="4.5"/>
+        
+    <g class="satellites">
+      <ellipse rx="36" ry="14.4" fill="none" stroke="#E7E0D5" stroke-width="1" opacity=".28"/>
+      <circle cx="36.0" cy="0.0" r="2.2" fill="#5B72B8" stroke="#E7E0D5" stroke-width="1.2"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </g>
+      </g>
+    </g>
+
+    <g transform="translate(648 120)">
+      <rect width="216" height="82" fill="#292724" stroke="#8E877D" stroke-width="2"/>
+      <rect width="8" height="82" fill="#5B72B8"/>
+      <text x="18" y="22" class="project-name">Crawling-Taobao-produ…</text>
+      <text x="16" y="46" class="metric">★ 23 <tspan class="divider">·</tspan> ⑂ 2</text>
+      <text x="16" y="65" class="traffic">8 views · 7 visitors</text>
+      <text x="206" y="21" text-anchor="end" class="rank">01</text>
+    </g>
+    <g transform="translate(300 132)">
+      <g class="planet-float planet-2">
+        <title>SpotTruth: 5 stars, 1 forks, 8 views · 7 visitors, language Python</title>
+        <circle r="28" fill="none" stroke="#B27B74" stroke-width="2" opacity="0">
+          <animate attributeName="r" values="23;37" dur="7.0s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".55;0" dur="7.0s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="20" fill="#B96A64" stroke="#E7E0D5" stroke-width="2.4"/>
+         <rect x="-25" y="-5" width="50" height="10" fill="#292724" stroke="#E7E0D5" stroke-width="2" transform="rotate(-18)"/>
+         <circle r="4.8" fill="#E7E0D5"/>
+        
+    <g class="satellites">
+      <ellipse rx="31" ry="12.4" fill="none" stroke="#E7E0D5" stroke-width="1" opacity=".28"/>
+      <circle cx="31.0" cy="0.0" r="2.2" fill="#B96A64" stroke="#E7E0D5" stroke-width="1.2"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </g>
+      </g>
+    </g>
+
+    <g transform="translate(66 78)">
+      <rect width="216" height="82" fill="#292724" stroke="#8E877D" stroke-width="2"/>
+      <rect width="8" height="82" fill="#B96A64"/>
+      <text x="18" y="22" class="project-name">SpotTruth</text>
+      <text x="16" y="46" class="metric">★ 5 <tspan class="divider">·</tspan> ⑂ 1</text>
+      <text x="16" y="65" class="traffic">8 views · 7 visitors</text>
+      <text x="206" y="21" text-anchor="end" class="rank">02</text>
+    </g>
+    <g transform="translate(590 282)">
+      <g class="planet-float planet-3">
+        <title>Zheng-Da-cup: 5 stars, 0 forks, 6 views · 4 visitors, language Python</title>
+        <circle r="28" fill="none" stroke="#B27B74" stroke-width="2" opacity="0">
+          <animate attributeName="r" values="23;37" dur="7.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".55;0" dur="7.2s" repeatCount="indefinite"/>
+        </circle>
+        <path d="M0-20L18 12.4L-18 12.4Z" fill="#5B72B8" stroke="#E7E0D5" stroke-width="2.4" stroke-linejoin="miter"/>
+         <circle cy="3.5999999999999996" r="6" fill="#292724" stroke="#E7E0D5" stroke-width="2"/>
+        
+      </g>
+    </g>
+
+    <g transform="translate(648 246)">
+      <rect width="216" height="82" fill="#292724" stroke="#8E877D" stroke-width="2"/>
+      <rect width="8" height="82" fill="#5B72B8"/>
+      <text x="18" y="22" class="project-name">Zheng-Da-cup</text>
+      <text x="16" y="46" class="metric">★ 5 <tspan class="divider">·</tspan> ⑂ 0</text>
+      <text x="16" y="65" class="traffic">6 views · 4 visitors</text>
+      <text x="206" y="21" text-anchor="end" class="rank">03</text>
+    </g>
+
+  <g transform="translate(42 341)">
+    <text class="subheading">3 PLANETS</text>
+    <text x="105" class="subheading">★ 33 STARS</text>
+    <text x="220" class="subheading">22 VIEWS · LAST 14 DAYS</text>
+    <text x="816" text-anchor="end" class="subheading">UPDATED DAILY · PLANET SIZE = STARS</text>
+  </g>
+</svg>

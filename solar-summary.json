@@ -1,0 +1,40 @@
+{
+  "username": "olddove-laoge",
+  "profileViews": 88,
+  "demo": false,
+  "projects": [
+    {
+      "name": "Crawling-Taobao-product-reviews",
+      "url": "https://github.com/olddove-laoge/Crawling-Taobao-product-reviews",
+      "description": "基于selenium实现的淘宝评论爬取，输入商品链接即可爬取设定的评论数（初始默认1000条）",
+      "stars": 23,
+      "forks": 2,
+      "language": "Python",
+      "updatedAt": "2026-08-15T14:17:57Z",
+      "views": 8,
+      "visitors": 7
+    },
+    {
+      "name": "SpotTruth",
+      "url": "https://github.com/olddove-laoge/SpotTruth",
+      "description": "避雷真平台是一个多源商品分析工具，整合淘宝商品评价、小红书社区笔记和黑猫投诉平台数据，通过AI技术提供全面的商品质量评估和购买决策支持。",
+      "stars": 5,
+      "forks": 1,
+      "language": "Python",
+      "updatedAt": "2026-04-15T14:02:04Z",
+      "views": 8,
+      "visitors": 7
+    },
+    {
+      "name": "Zheng-Da-cup",
+      "url": "https://github.com/olddove-laoge/Zheng-Da-cup",
+      "description": "正大杯",
+      "stars": 5,
+      "forks": 0,
+      "language": "Python",
+      "updatedAt": "2026-02-12T17:38:39Z",
+      "views": 6,
+      "visitors": 4
+    }
+  ]
+}
