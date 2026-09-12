@@ -1,0 +1,40 @@
+{
+  "username": "olddove-laoge",
+  "profileViews": 99,
+  "demo": false,
+  "projects": [
+    {
+      "name": "Crawling-Taobao-product-reviews",
+      "url": "https://github.com/olddove-laoge/Crawling-Taobao-product-reviews",
+      "description": "基于selenium实现的淘宝评论爬取，输入商品链接即可爬取设定的评论数（初始默认1000条）",
+      "stars": 23,
+      "forks": 2,
+      "language": "Python",
+      "updatedAt": "2026-08-15T14:17:57Z",
+      "views": 10,
+      "visitors": 8
+    },
+    {
+      "name": "Zheng-Da-cup",
+      "url": "https://github.com/olddove-laoge/Zheng-Da-cup",
+      "description": "正大杯",
+      "stars": 6,
+      "forks": 0,
+      "language": "Python",
+      "updatedAt": "2026-09-08T04:29:36Z",
+      "views": 8,
+      "visitors": 5
+    },
+    {
+      "name": "CrawlMind",
+      "url": "https://github.com/olddove-laoge/CrawlMind",
+      "description": "AI智能网页数据提取工具 - 基于 LLM，自动分析页面层级结构，智能爬取各类你想要的数据。 AI-Powered Web Scraper - Uses LLM to intelligently analyze page structure and crawls various types of data you want.",
+      "stars": 7,
+      "forks": 1,
+      "language": "JavaScript",
+      "updatedAt": "2026-06-04T13:29:55Z",
+      "views": 2,
+      "visitors": 1
+    }
+  ]
+}
