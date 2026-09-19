@@ -1,0 +1,40 @@
+{
+  "username": "olddove-laoge",
+  "profileViews": 104,
+  "demo": false,
+  "projects": [
+    {
+      "name": "Crawling-Taobao-product-reviews",
+      "url": "https://github.com/olddove-laoge/Crawling-Taobao-product-reviews",
+      "description": "基于selenium实现的淘宝评论爬取，输入商品链接即可爬取设定的评论数（初始默认1000条）",
+      "stars": 24,
+      "forks": 2,
+      "language": "Python",
+      "updatedAt": "2026-09-18T03:49:49Z",
+      "views": 11,
+      "visitors": 8
+    },
+    {
+      "name": "Zheng-Da-cup",
+      "url": "https://github.com/olddove-laoge/Zheng-Da-cup",
+      "description": "正大杯",
+      "stars": 6,
+      "forks": 0,
+      "language": "Python",
+      "updatedAt": "2026-09-08T04:29:36Z",
+      "views": 7,
+      "visitors": 5
+    },
+    {
+      "name": "SpotTruth",
+      "url": "https://github.com/olddove-laoge/SpotTruth",
+      "description": "避雷真平台是一个多源商品分析工具，整合淘宝商品评价、小红书社区笔记和黑猫投诉平台数据，通过AI技术提供全面的商品质量评估和购买决策支持。",
+      "stars": 6,
+      "forks": 1,
+      "language": "Python",
+      "updatedAt": "2026-09-14T06:22:57Z",
+      "views": 7,
+      "visitors": 4
+    }
+  ]
+}
